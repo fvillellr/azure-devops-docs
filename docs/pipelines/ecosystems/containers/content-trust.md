@@ -66,7 +66,7 @@ Docker Content Trust (DCT) lets you use digital signatures for data sent to and 
        repository: $(imageRepository)
        tags: |
          $(tag)
-       arguments: '--disable-content-trust=false'
+       arguments: '--disable-content-trust=true'
     
    - task: Docker@2
      inputs: 
